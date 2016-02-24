@@ -10,13 +10,14 @@ import Foundation
 
 class Representative {
     
-    private let kNameKey = "name"
-    private let kPartyKey = "party"
-    private let kStateKey = "state"
-    private let kDistrictKey = "district"
-    private let kPhoneKey = "phone"
-    private let kOfficeKey = "office"
-    private let kLinkKey = "link"
+    static let kNameKey = "name"
+    static let kPartyKey = "party"
+    static let kStateKey = "state"
+    static let kDistrictKey = "district"
+    static let kPhoneKey = "phone"
+    static let kOfficeKey = "office"
+    static let kLinkKey = "link"
+    static let kResultsKey = "results"
     
     let name: String?
     let party: String?
